@@ -3,4 +3,20 @@
   <groupId>com.ibm.demo</groupId>
   <artifactId>QrCode</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+  
+  <dependencies>
+    <!-- Zxing, pronounced as Zebra Crossing, is an open source, multi-format 1D/2D 
+         barcode image processing library implemented in java. -->
+    <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>core</artifactId>
+        <version>3.3.0</version>
+    </dependency>
+    <dependency>
+        <groupId>com.google.zxing</groupId>
+        <artifactId>javase</artifactId>
+        <version>3.3.0</version>
+    </dependency>
+  </dependencies>	
+
 </project>
